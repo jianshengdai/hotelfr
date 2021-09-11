@@ -1,12 +1,15 @@
 import React from 'react';
-import './Navigation.css'
+import './Navigation.css';
+import Fade from 'react-reveal/Fade';
 import icon_call from './icon_call.svg';
 import icon_menu from './icon_menu.svg';
+
 const Navigation = () =>{
 
   return(
 
     <nav className='sticky-nav'>
+    <Fade>
       <div className='menu-start'>
           <div  className='fl w-5 tc  br2 ph1 mh2 mv4 icon_menu'>
             <a href="*"><img alt='logo' src={icon_menu}/></a>
@@ -25,6 +28,7 @@ const Navigation = () =>{
           <p><a href="*">Book Now</a></p>
           </div>
       </div>
+      </Fade>
     </nav>
 
   );

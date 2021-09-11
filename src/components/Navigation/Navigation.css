@@ -1,7 +1,7 @@
 nav{
-  position: absolute;
+  position: fixed;
   top: 0px;
-  width:100vw;
+  width:100%;
   display: flex;
 }
 
@@ -17,7 +17,7 @@ nav{
 a{
   text-transform : uppercase;
   font-weight: bold;
-  color : #F7F5EF;
+  color : #EBF2FA;
   letter-spacing :1.25px;
   text-decoration: none;
 }
@@ -29,17 +29,18 @@ a{
 }
 
 .icon_menu:hover{
-    background-color: rgba(124,145,119,0.8);
+    background-color: rgba(255,203,119,0.8);
     transition-duration : 1s;
 }
 
 .icon_book{
-  background-color: rgba(124,145,119,0.8);
+  background-color: rgba(23,28,97,0.7);
 }
 
 .icon_book:hover{
-  opacity: 0.4;
+  background-color: rgba(255,203,119,0.8);
   transition-duration : 1s;
+  color: #EBF2FA;
 }
 
 img{
