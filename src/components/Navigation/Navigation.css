@@ -1,0 +1,48 @@
+nav{
+  position: absolute;
+  top: 0px;
+  width:100vw;
+  display: flex;
+}
+
+.menu_start{
+  justify-content: center;
+
+}
+
+.menu_rest{
+  margin-left: auto;
+}
+
+a{
+  text-transform : uppercase;
+  font-weight: bold;
+  color : #F7F5EF;
+  letter-spacing :1.25px;
+  text-decoration: none;
+}
+
+.icon_menu{
+  width:3em;
+  align-items: center;
+  background-color: rgba(49,58,46,0.3);
+}
+
+.icon_menu:hover{
+    background-color: rgba(124,145,119,0.8);
+    transition-duration : 1s;
+}
+
+.icon_book{
+  background-color: rgba(124,145,119,0.8);
+}
+
+.icon_book:hover{
+  opacity: 0.4;
+  transition-duration : 1s;
+}
+
+img{
+   height: 3em;
+   width: 3em;
+}
